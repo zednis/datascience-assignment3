@@ -56,6 +56,6 @@ dataset.procedure = "For consistency all measurements were made immediately afte
 dataset.creator = "Stephan Zednik <zednis@rpi.edu>"
 dataset.source = "Stephan Zednik <zednis@rpi.edu>"
 dataset.subject = "Stephan Zednik"
-dataset.generated_by = "https://github.com/zednis/datascience-assignment3/blob/master/weight_log.py"
+dataset.script = "https://github.com/zednis/datascience-assignment3/blob/master/weight_log.py"
 
 dataset.close()
