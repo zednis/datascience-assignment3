@@ -22,6 +22,6 @@ dataset.description = "This data is obtained from Reflection high-energy electro
 dataset.creator = "Stephan Zednik <zednis@rpi.edu>"
 dataset.source = "Jie Cheng <chengj5@rpi.edu>"
 dataset.subject = "graphene sample"
-dataset.generated_by = "rheed.py"
+dataset.script = "https://github.com/zednis/datascience-assignment3/blob/master/rheed.py"
 
 dataset.close()
