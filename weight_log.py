@@ -57,5 +57,7 @@ dataset.creator = "Stephan Zednik <zednis@rpi.edu>"
 dataset.source = "Stephan Zednik <zednis@rpi.edu>"
 dataset.subject = "Stephan Zednik"
 dataset.script = "https://github.com/zednis/datascience-assignment3/blob/master/weight_log.py"
+dataset.urn = "urn:zednik:dataset:C400FD7D-2FFF-43A5-8606-AEB63DE64169"
+dataset.keywords = "body weight,body fat,body mass index"
 
 dataset.close()

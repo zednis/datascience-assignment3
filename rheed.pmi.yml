@@ -1,0 +1,26 @@
+reference:
+  archival system identification: 78AC3C0F-DA22-4929-BDEE-5217F0E8377C
+  global identification: urn:zednik:dataset:78AC3C0F-DA22-4929-BDEE-5217F0E8377C
+  resource description:
+    dc.title: Reflection High-Energy Electron Diffraction data on graphene sample
+    dc.creator: Stephan Zednik <zednis@rpi.edu>
+    dc.description: This data is obtained from Reflection high-energy electron diffraction (RHEED) experiment on graphene sample.
+    dc.type: Dataset
+    dc.format: application/x-netcdf4
+    dc.subject:
+    - reflection high-energy electron diffraction
+    - graphene
+context:
+  reason for creation: A NetCDF file was created as an archival representation of a TSV-like dataset
+  relationships:
+    transformation script: https://github.com/zednis/datascience-assignment3/blob/master/rheed.py
+    source data: https://github.com/zednis/datascience-assignment3/blob/master/data/img040_profile.txt
+provenance:
+  origin: measurement of reflection high-energy electron diffraction on graphene sample
+  pre-ingest: archival data object prepared by Stephan Zednik <zednis@rpi.edu>
+  ingest: netcdf file conforming to CF conventions created by data collector by script
+  archival retention: none
+  rights management: This dataset is made available for use under CC0 https://creativecommons.org/publicdomain/zero/1.0/
+fixity:
+  checksum:
+    sha256: 231b9a1a0786525e26afec40f09250060f2232d158c8c479ff677d82d01cbf6b

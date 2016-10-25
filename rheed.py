@@ -23,5 +23,7 @@ dataset.creator = "Stephan Zednik <zednis@rpi.edu>"
 dataset.source = "Jie Cheng <chengj5@rpi.edu>"
 dataset.subject = "graphene sample"
 dataset.script = "https://github.com/zednis/datascience-assignment3/blob/master/rheed.py"
+dataset.urn = "urn:zednik:dataset:78AC3C0F-DA22-4929-BDEE-5217F0E8377C"
+dataset.keywords = "reflection high-energy electron diffraction,graphene"
 
 dataset.close()

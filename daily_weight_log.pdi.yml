@@ -1,0 +1,27 @@
+reference:
+  archival system identification: C400FD7D-2FFF-43A5-8606-AEB63DE64169
+  global identification: urn:zednik:dataset:C400FD7D-2FFF-43A5-8606-AEB63DE64169
+  resource description:
+    dc.title: Weight and Body Composition Measurements
+    dc.creator: Stephan Zednik <zednis@rpi.edu>
+    dc.description: Weight and body fat measurements obtained by the subject daily
+    dc.type: Dataset
+    dc.format: application/x-netcdf4
+    dc.subject:
+    - body weight
+    - body fat
+    - body mass index
+context:
+  reason for creation: A NetCDF file was created as an archival representation of a CSV dataset
+  relationships:
+    transformation script: https://github.com/zednis/datascience-assignment3/blob/master/weight_log.py
+    source data: https://github.com/zednis/datascience-assignment3/blob/master/data/weight_log_fitbit.csv
+provenance:
+  origin: recording of body weight and body fat by fitbit aria smart scale
+  pre-ingest: archival data object prepared by Stephan Zednik <zednis@rpi.edu>
+  ingest: netcdf file conforming to CF conventions created by data collector by script
+  archival retention: none
+  rights management: This dataset is made available for use under CC0 https://creativecommons.org/publicdomain/zero/1.0/
+fixity:
+  checksum:
+    sha256: c93f3173b53db3ce475c7dec39dac4572c31dcfbef79d499a73a2dff45c78b4d
